@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid white; */
+}
+
+.mouse-tracking-container {
+  /* height: 100vh; Ensure full height */
+}
+.inter-tight {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+}
+.button {
+  padding: 0.5em 1.5em;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+.gradient-effect {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -0;
+  pointer-events: none; /* Allow clicks to pass through */
+  transition: background 0.5s ease, opacity 0.5s ease; /* Smooth background and opacity transition */
+  opacity: 0;
+}
+.relative {
+  position: relative;
+  z-index: 1; /* Stack content above the gradient */
+}
+
+.bg-red {
+  background-color: #fe0000;
+}
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+body {
+  @apply text-white inter-tight;
+}
