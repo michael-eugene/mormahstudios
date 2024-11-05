@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-black" style="min-height: 100vh">
+  <div class="bg-black">
     <div
-      class="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]"
+      class="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:140px_54px] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]"
     ></div>
     <div
       class="gradient-effect absolute"
@@ -10,20 +10,20 @@
     ></div>
     <div class="relative z-10">
       <header class="text-white">
-        <nav class="container mx-auto p-4 flex justify-between">
+        <nav class="p-7 md:px-20 flex justify-between items-center">
           <NuxtLink to="/"
-            ><p class="font-bold">Mormah <br />Studios.</p></NuxtLink
+            ><p class="font-bold text-lg">Mormah <br />Studios.</p></NuxtLink
           >
           <ul class="flex gap-4">
             <li>
-              <NuxtLink to="/contact" class="button">Lets Talk →</NuxtLink>
+              <NuxtLink to="/contact" class="button hidden md:block">Lets Talk →</NuxtLink>
             </li>
             <li>
               <NuxtLink to="/services">
-                <div class="space-y-2">
+                <div class="space-y-2 md:hidden">
                   <span class="block w-8 h-0.5 bg-white"></span>
                   <span class="block w-8 h-0.5 bg-white"></span>
-                  <span class="block w-5 h-0.5 bg-white"></span>
+                  <span class="block w-8 h-0.5 bg-white"></span>
                 </div>
               </NuxtLink>
             </li>
@@ -56,7 +56,7 @@
           >Lets Talk →</NuxtLink
         >
       </div>
-      <footer class="flex p-8">
+      <footer class="flex p-8 md:p-20 justify-center items-center">
         <div class="w-1/2">
           <p>Stay connected with me</p>
           <h1 class="text-3xl font-bold">
@@ -116,4 +116,11 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+footer {
+  background-image: url(../assets/img/footer.svg);
+  background-position: center;
+  background-size: contain;
+  height: 300px;
+}
+</style>

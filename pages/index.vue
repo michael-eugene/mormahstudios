@@ -1,32 +1,29 @@
 <template>
   <div>
-    <div class="container text-center my-10">
-      <div style="max-width: 600px" class="mx-auto">
-        <h1 class="text-4xl font-bold">
+    <div class="text-center">
+      <div class="my-24">
+        <h1 class="font-bold text-5xl md:text-9xl md:px-24">
           <span
             class="bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-orange-900"
             >I'm Rotam</span
           >, a passionate designer specializing in digital solutions
         </h1>
+        <br />
+        <a
+          href="#"
+          class="rounded-2xl outline outline-1 outline-orange-900 px-8 py-2 text-sm text-white font-semibold shadow-md hover:bg-gradient-to-r from-yellow-200 to-orange-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+        >
+          Let's Talk<span aria-hidden="true"> →</span>
+        </a>
+        <div>
+          <ul class="flex gap-4 justify-center m-8">
+            <li class="text-xs underline"><a href="https://www.instagram.com/mxrmahs.realm/" target="_blank">INSTAGRAM</a></li>
+            <li class="text-xs underline"><a href="#" target="_blank">BEHANCE</a></li>
+            <li class="text-xs underline"><a href="#" target="_blank">DRIBBBLE</a></li>
+          </ul>
+        </div>
+        <img src="../assets/img/company.svg" alt="" class="mx-auto" />
       </div>
-      <br />
-      <a
-        href="#"
-        class="rounded-2xl outline outline-1 outline-orange-900 px-8 py-2 text-sm text-white font-semibold shadow-md hover:bg-gradient-to-r from-yellow-200 to-orange-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-      >
-        Let's Talk<span aria-hidden="true"> →</span>
-      </a>
-      <div>
-        <ul class="flex gap-4 justify-center m-8">
-          <li class="text-xs underline"><a href="#">INSTAGRAM</a></li>
-          <li class="text-xs underline"><a href="#">BEHANCE</a></li>
-          <li class="text-xs underline"><a href="#">DRIBBBLE</a></li>
-        </ul>
-      </div>
-
-      <img src="../assets/img/company.svg" alt="" />
-      <br>
-      <br>
 
       <div
         class="relative flex flex-col items-center justify-center"
