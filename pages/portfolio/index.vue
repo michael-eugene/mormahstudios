@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div style="max-width: 600px" class="mx-auto">
-      <h1 class="text-4xl font-bold text-center">
+    <div class="mx-auto">
+      <h1 class="font-bold text-5xl xl:text-9xl px-10 md:px-20 xl:px-24">
         Creating Unforgettable Digital Impressions
       </h1>
     </div>

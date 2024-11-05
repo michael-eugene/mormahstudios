@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="mx-auto text-center">
-      <h1 class="font-bold text-5xl md:text-9xl md:px-24">
+      <h1 class="font-bold text-5xl xl:text-9xl px-10 md:px-20 xl:px-24">
         <span
           class="bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-orange-900"
           >Say Hi!</span
@@ -48,9 +48,9 @@
             for="company_name"
             class="block text-sm font-medium text-gray-700 dark:text-white"
             >Company Name</label
-            >
-            <div class="mt-1">
-              <input
+          >
+          <div class="mt-1">
+            <input
               id="company_name"
               name="company_name"
               placeholder="Your company or website"
